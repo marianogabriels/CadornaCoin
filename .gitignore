@@ -1,13 +1,13 @@
 *.tar.gz
 
 *.exe
-src/litecoin
-src/litecoind
-src/litecoin-cli
-src/litecoin-tx
-src/test/test_litecoin
-src/test/test_litecoin_fuzzy
-src/qt/test/test_litecoin-qt
+src/CadornaCoin
+src/CadornaCoind
+src/CadornaCoin-cli
+src/CadornaCoin-tx
+src/test/test_CadornaCoin
+src/test/test_CadornaCoin_fuzzy
+src/qt/test/test_CadornaCoin-qt
 
 # autoreconf
 Makefile.in
@@ -74,12 +74,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-litecoin-qt
+CadornaCoin-qt
 Litecoin-Qt.app
 
 # Unit-tests
 Makefile.test
-litecoin-qt_test
+CadornaCoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -92,7 +92,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_litecoin.coverage/
+test_CadornaCoin.coverage/
 total.coverage/
 coverage_percent.txt
 
